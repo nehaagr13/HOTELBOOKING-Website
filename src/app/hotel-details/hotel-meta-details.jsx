@@ -1,9 +1,6 @@
 import Icon from '@/components/ui/icon';
 import React from 'react';
 
-
-
-
 const HotelMetaDetails = ({ hotel, info }) => {
   return (
     <>
@@ -54,7 +51,7 @@ const HotelMetaDetails = ({ hotel, info }) => {
       </section>
       <section className="space-y-4 my-8">
         <h2 className="text-xl font-bold">About this Property</h2>
-        <p className='text-sm leading-relaxed tracking-wide text-muted-foreground'>{info?.description || 'No description available'}</p>
+        <p className='text-sm leading-relaxed tracking-wide text-muted-foreground'>{info.description}</p>
       </section>
     </>
   );
